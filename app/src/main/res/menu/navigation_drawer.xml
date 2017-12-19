@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_top_view"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:title="Time Table" />
+
+        <item
+            android:id="@+id/nav_academics"
+            android:title="Academics" />
+
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/nav_social_feed"
+            android:title="Social Feed"></item>
+    </group>
+
+    <group>
+        <item android:title="Logout"
+            android:id="@+id/nav_logut">
+
+        </item>
+    </group>
+
+
+</menu>
